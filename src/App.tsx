@@ -814,10 +814,10 @@ export default function App() {
               />
             </a>
             <nav className="gnb-nav">
-              <a href="https://megazone-ai-01.vercel.app">AI 에이전트</a>
-              <a href="https://megazone-ai-02.vercel.app">AI 아키텍트</a>
-              <a href="https://megazone-ai-03.vercel.app">AI 보안</a>
-              <a href="https://megazone-ai-04.vercel.app">AI 데이터</a>
+              <a href="https://megazone-ai-sh-01.vercel.app">AI 에이전트</a>
+              <a href="https://megazone-ai-sh-02.vercel.app">AI 아키텍트</a>
+              <a href="https://megazone-ai-sh-03.vercel.app">AI 보안</a>
+              <a href="https://megazone-ai-sh-04.vercel.app">AI 데이터</a>
               <a href="#faq">FAQ</a>
             </nav>
           </div>
@@ -838,10 +838,10 @@ export default function App() {
 
         {/* Mobile Drawer */}
         <div className={`mobile-drawer ${mobileMenuOpen ? 'open' : ''}`} id="mobileDrawer">
-          <a href="https://megazone-ai-01.vercel.app" onClick={() => setMobileMenuOpen(false)}>AI 에이전트</a>
-          <a href="https://megazone-ai-02.vercel.app" onClick={() => setMobileMenuOpen(false)}>AI 아키텍트</a>
-          <a href="https://megazone-ai-03.vercel.app" onClick={() => setMobileMenuOpen(false)}>AI 보안</a>
-          <a href="https://megazone-ai-04.vercel.app" onClick={() => setMobileMenuOpen(false)}>AI 데이터</a>
+          <a href="https://megazone-ai-sh-01.vercel.app" onClick={() => setMobileMenuOpen(false)}>AI 에이전트</a>
+          <a href="https://megazone-ai-sh-02.vercel.app" onClick={() => setMobileMenuOpen(false)}>AI 아키텍트</a>
+          <a href="https://megazone-ai-sh-03.vercel.app" onClick={() => setMobileMenuOpen(false)}>AI 보안</a>
+          <a href="https://megazone-ai-sh-04.vercel.app" onClick={() => setMobileMenuOpen(false)}>AI 데이터</a>
           <a href="#faq" onClick={() => setMobileMenuOpen(false)}>FAQ</a>
           <a
             href="#apply"
